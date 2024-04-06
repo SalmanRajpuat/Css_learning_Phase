@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Fonts info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        p{
+            /*web saved fonts
+            we can use multiple fonts in one line as it gets 
+            stcaked on to each other and the top one means most 
+            right one will be top on stack and will be applied
+            if not available then the later fonts will be checked*/
+            font-family: "Inconsolata", monospace;
+            font-size: 33px;
+            /*pixel is 1/96th of an inch*/
+            line-height: 1.3em;
+            
+        }
+
+        span{
+            font-weight: bold;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Css Fonts</h3>
+    <p>Knowing <span>about </span> fonts</p>
+</body>
+</html>
