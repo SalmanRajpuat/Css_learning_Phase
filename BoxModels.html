@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .container{
+            background-color: rgb(183, 183, 232);
+            border: 4px solid rgb(30, 11, 66);
+            /*
+            padding-top: 19px;
+            padding-bottom: 19px;
+            padding-left: 19px;
+            padding-right: 20px;
+        padding: top right bottom left;
+        TRBL*/  
+        padding: 64px 55px 29px 53px;
+
+            box-sizing: border-box;
+        /*
+        now for padding is top/bottom and left/right
+        we can set it to padding: 40px 30px;
+        */
+            margin: 30px;
+        }
+
+        body{
+            background-color: rgb(187, 162, 210);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Heading</h3>
+        <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, fuga laborum, laboriosam dignissimos beatae exercitationem recusandae dolores in voluptates rerum dicta fugiat soluta!</p>
+    </div>
+    <div class="container">
+        <h3>Heading</h3>
+        <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, fuga laborum, laboriosam dignissimos beatae exercitationem recusandae dolores in voluptates rerum dicta fugiat soluta!</p>
+    </div>
+    <div class="container">
+        <h3>Heading</h3>
+        <p id="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, fuga laborum, laboriosam dignissimos beatae exercitationem recusandae dolores in voluptates rerum dicta fugiat soluta!</p>
+    </div>
+    
+</body>
+</html>
